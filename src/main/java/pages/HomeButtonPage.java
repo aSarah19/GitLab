@@ -14,4 +14,9 @@ public class HomeButtonPage extends BasePage {
     By HomeButtonIcon = By.xpath("/html/body/div/div/div[1]/nav");
 
     public void ClickOnHomeButtonIcon() {driver.findElement(HomeButtonIcon).click();}
+
+
+    By HomeButtonOnly = By.xpath("/html/body/div/div/div[1]/nav");
+
+    public void ClickOnlyOnHomeButton() {driver.findElement(HomeButtonIcon).click();}
 }

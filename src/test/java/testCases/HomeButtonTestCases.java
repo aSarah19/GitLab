@@ -24,4 +24,9 @@ public class HomeButtonTestCases extends BasePage {
         homeButtonPage.ClickOnHomeButtonIcon();
     }
 
+    @Test
+    public void ClickJustOnHomeButton() throws InterruptedException {
+        homeButtonPage.ClickOnlyOnHomeButton();
+    }
+
 }
