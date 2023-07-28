@@ -9,22 +9,37 @@ import pages.BasePage;
 import pages.WishlistPage;
 
 public class WishlistTestCases extends BasePage {
-    private WishlistPage heartIconPage;
+    private WishlistPage wishlistPage;
 
     @BeforeClass
     public void setUp() {
         super.setUp();
-        heartIconPage = new WishlistPage(driver);
+        wishlistPage= new WishlistPage(driver);
     }
 
 
     @Test
     public void clickOnAwesomeGraniteChipsHeartIcon() throws InterruptedException {
-        heartIconPage.ClickOnAwesomeGraniteChips();
-        heartIconPage.ClickOnAwesomeGraniteChipsHeartIcon();
-
-
+        wishlistPage.ClickOnAwesomeGraniteChips();
+        wishlistPage.ClickOnAwesomeGraniteChipsHeartIcon();
 
     }
-}
+
+
+    @Test
+    public void ClickOnVerifyWish() throws InterruptedException {
+        wishlistPage.ClickOnVerifyWish();
+
+    }
+
+    }
+
+
+
+
+
+
+
+
+
 
