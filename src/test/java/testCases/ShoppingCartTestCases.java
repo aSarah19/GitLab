@@ -65,11 +65,11 @@ public class ShoppingCartTestCases extends BasePage {
         shoppingCartPages.ClickOnShoppingCartToOpen();
         shoppingCartPages.ClickOnCheckoutButton();
         shoppingCartPages.ClickOnFirstName();
-        shoppingCartPages.WriteFirstNameSarah();
+        shoppingCartPages.WriteFirstNameSarah("Sarah");
         shoppingCartPages.ClickOnLastName();
-        shoppingCartPages.WriteLastNameAntonie();
+        shoppingCartPages.WriteLastNameAntonie("Antonie");
         shoppingCartPages.ClickOnAddress();
-        shoppingCartPages.WriteTheAddressSection();
+        shoppingCartPages.WriteTheAddressSection("Valea Fanatelor");
         shoppingCartPages.SelectDelivery();
         shoppingCartPages.SelectPaymentOption();
         shoppingCartPages.ClickOnContinueCheckoutButton();

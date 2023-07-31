@@ -39,4 +39,45 @@ public class DemoShopTestCases extends BasePage {
     }
 
 
+    @Test
+    public void WriteOnSearchBar() throws InterruptedException{
+        demoShopPage.ClickOnSearchBar();
+        demoShopPage.WriteAwesomeMetalChairOnSearchBar("Awesome Metal Chair");
+    }
+
+    @Test
+    public void ClickOnTheSearchBarIconOnly() throws InterruptedException{
+        demoShopPage.ClickOnSearchBarIconOnly();
+    }
+
+
+    @Test
+    public void SelectAllSearchingOptions() throws InterruptedException{
+       demoShopPage.ClickOnSearchByNameAtoZOption();
+       demoShopPage.ClickOnSearchByNameZtoAOption();
+       demoShopPage.ClickOnSortByPriceLowToHigh();
+       demoShopPage.ClickOnSortByPriceHighToLow();
+       Assert.assertEquals("All options are checked." , "All options are checked.");
+    }
+
+
+    @Test
+    public void ClickOnTheRefreshButtonOnly() throws InterruptedException{
+        demoShopPage.ClickOnRefreshButton();
+    }
+
+
+    @Test
+    public void RefreshThePageFromProducts() throws InterruptedException{
+        demoShopPage.ClickOnIncredibleConcreteHatRefreshPage();
+        demoShopPage.ClickOnRefreshButton();
+
+    }
+
+    @Test
+    public void ClickOnQuestionMarkButton() throws InterruptedException{
+        demoShopPage.ClickOnQuestionMarkIcon();
+    }
+
+
 }

@@ -34,7 +34,7 @@ public class ShoppingCartPages extends BasePage{
     public void ClickOnLessItemAwesomeGraniteChips() {driver.findElement(LessItemAwesomeGraniteChips).click();}
 
 
-    By AddGorgeousSoftPizzaToShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[4]/div/div[2]/button[1]");
+    By AddGorgeousSoftPizzaToShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div/div[3]/button[1]");
     public void ClickOnAddToCartGorgeousSoftPizza() {driver.findElement(AddGorgeousSoftPizzaToShoppingCart).click();}
 
 
@@ -53,20 +53,20 @@ public class ShoppingCartPages extends BasePage{
     public void ClickOnFirstName() {driver.findElement(FirstName).click();}
 
     By FirstNameSarah = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[1]/div[2]/input[1]");
-    public void WriteFirstNameSarah() {driver.findElement(FirstNameSarah).click();}
+    public void WriteFirstNameSarah(String arg1) {driver.findElement(FirstNameSarah).sendKeys(arg1);}
 
 
     By LastName = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[1]/div[2]/input[2]");
     public void ClickOnLastName() {driver.findElement(LastName).click();}
 
     By LastNameAntonie = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[1]/div[2]/input[2]");
-    public void WriteLastNameAntonie() {driver.findElement(LastName).click();}
+    public void WriteLastNameAntonie(String arg1) {driver.findElement(LastNameAntonie).sendKeys(arg1);}
 
     By Address = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[1]/div[2]/textarea");
     public void ClickOnAddress() {driver.findElement(Address).click();}
 
     By WriteTheAddress = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[1]/div[2]/textarea");
-    public void WriteTheAddressSection() {driver.findElement(WriteTheAddress).click();}
+    public void WriteTheAddressSection(String arg1) {driver.findElement(WriteTheAddress).sendKeys(arg1);}
 
 
     By DeliveryInformation = By.xpath("/html/body/div/div/div[2]/form/div/div[1]/div[2]/div[2]/div");
