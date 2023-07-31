@@ -42,8 +42,10 @@ public class WishlistTestCases extends BasePage {
         wishlistPage.ClickOnDeleteFromWishlistAwesomeMetalChair();
         wishlistPage.ClickOnDeleteFromWishlistAwesomeSoftShirt();
         wishlistPage.ClickOnDeleteFromWishlistGorgeousSoftPizza();
-        Assert.assertEquals("The items are sucessfully removed from wishlist" , "The items are sucessfully removed from wishlist");
-    }
+        Assert.assertEquals("The items are sucessfully removed from wishlist" , "The items are sucessfully removed from wishlist");}
+
+
+
 
 
 

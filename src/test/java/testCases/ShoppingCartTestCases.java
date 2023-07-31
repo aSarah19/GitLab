@@ -72,11 +72,29 @@ public class ShoppingCartTestCases extends BasePage {
         shoppingCartPages.SelectPaymentOption();
         shoppingCartPages.ClickOnContinueCheckoutButton();
         shoppingCartPages.ClickOnCompleteYourOrder();
+    }
+
+
+    @Test
+    public void ContinueShoppingButton() throws InterruptedException{
+        shoppingCartPages.ClickOnPracticalWoodenBaconAddToCart();
+        shoppingCartPages.ClickOnShoppingCartToOpen();
         shoppingCartPages.ClickOnContinueShoppingButton();
+    }
 
-
+    @Test
+    public void GoToVerifyProductFromShoppingCart() throws InterruptedException{
+        shoppingCartPages.ClickOnPracticalWoodenBaconAddToCart();
+        shoppingCartPages.ClickOnShoppingCartToOpen();
+        shoppingCartPages.OpenTheProductWoodenBaconFromShoppingCart();
+        Assert.assertEquals("The product is successfully displayed" , "The product is successfully displayed");
 
     }
+
+
+
+
+
 
 
 }

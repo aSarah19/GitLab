@@ -82,8 +82,20 @@ public class ShoppingCartPages extends BasePage{
     By CompleteYourOrder = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/a[2]");
     public void ClickOnCompleteYourOrder() {driver.findElement(CompleteYourOrder).click();}
 
-    By ContinueShoppingButton = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/a");
+
+    By PracticalWoodenBaconAddToCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[8]/div/div[2]/button[1]");
+    public void ClickOnPracticalWoodenBaconAddToCart() {driver.findElement(PracticalWoodenBaconAddToCart).click();}
+
+
+    By ContinueShoppingButton = By.xpath("/html/body/div/div/div[2]/div[2]/div[3]/a[1]");
     public void ClickOnContinueShoppingButton() {driver.findElement(ContinueShoppingButton).click();}
+
+
+    By GoToPracticalWoodenBaconFromShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[1]/div/div/div/div[4]");
+    public void OpenTheProductWoodenBaconFromShoppingCart() {driver.findElement(GoToPracticalWoodenBaconFromShoppingCart).click();}
+
+
+
 
 
 
