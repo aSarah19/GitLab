@@ -19,8 +19,8 @@ public class ShoppingCartPages extends BasePage{
     public void ClickOnAddToCartAwesomeMetalChair() {driver.findElement(AddToCartAwesomeMetalChair).click();}
 
 
-    By AddToShopingCartIcon = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/a[1]");
-    public void ClickOnAddToShoppingCart() {driver.findElement(AddToShopingCartIcon).click();}
+    By AddToShoppingCartIcon = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/a[1]");
+    public void ClickOnAddToShoppingCart() {driver.findElement(AddToShoppingCartIcon).click();}
 
 
     By AddMoreItemAwesomeGraniteChips = By.xpath("/html/body/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div[1]/div/button[2]");
@@ -34,7 +34,7 @@ public class ShoppingCartPages extends BasePage{
     public void ClickOnLessItemAwesomeGraniteChips() {driver.findElement(LessItemAwesomeGraniteChips).click();}
 
 
-    By AddGorgeousSoftPizzaToShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div/div[3]/button[1]");
+    By AddGorgeousSoftPizzaToShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[4]/div/div[2]/button[1]");
     public void ClickOnAddToCartGorgeousSoftPizza() {driver.findElement(AddGorgeousSoftPizzaToShoppingCart).click();}
 
 

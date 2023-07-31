@@ -58,8 +58,7 @@ public class ShoppingCartTestCases extends BasePage {
 
 
     @Test
-    public void CompleteYourOrderWithoutAccount() throws InterruptedException{
-        shoppingCartPages.ClickOnGorgeousSoftPizza();
+    public void MakeAnOrderAsGuest() throws InterruptedException{
         shoppingCartPages.ClickOnAddToCartGorgeousSoftPizza();
         shoppingCartPages.ClickOnShoppingCartToOpen();
         shoppingCartPages.ClickOnCheckoutButton();
