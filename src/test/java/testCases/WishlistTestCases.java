@@ -27,10 +27,25 @@ public class WishlistTestCases extends BasePage {
 
 
     @Test
-    public void ClickOnVerifyWish() throws InterruptedException {
-        wishlistPage.ClickOnVerifyWish();
+    public void OpenWishlistIcon() throws InterruptedException {
+        wishlistPage.ClickOnOpenWishlistIcon();
 
     }
+
+
+    @Test
+    public void RemoveFromWishlistItems() throws InterruptedException{
+        wishlistPage.ClickOnPutOnWishlistAwesomeMetalChair();
+        wishlistPage.ClickOnPutOnWishlistAwesomeSoftShirt();
+        wishlistPage.ClickOnPutOnWishlistGorgeousSoftPizza();
+        wishlistPage.ClickOnOpenWishlistIcon();
+        wishlistPage.ClickOnDeleteFromWishlistAwesomeMetalChair();
+        wishlistPage.ClickOnDeleteFromWishlistAwesomeSoftShirt();
+        wishlistPage.ClickOnDeleteFromWishlistGorgeousSoftPizza();
+        Assert.assertEquals("The items are sucessfully removed from wishlist" , "The items are sucessfully removed from wishlist");
+    }
+
+
 
     }
 
