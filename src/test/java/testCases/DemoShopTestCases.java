@@ -79,5 +79,10 @@ public class DemoShopTestCases extends BasePage {
         demoShopPage.ClickOnQuestionMarkIcon();
     }
 
+    @Test
+    public void LinkDemoShopBuildDateOpen() throws InterruptedException{
+        demoShopPage.ClickOnDemoShopBuildDateLink();
+    }
+
 
 }

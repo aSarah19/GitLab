@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.BasePage;
 import pages.HomeButtonPage;
-import pages.WishlistPage;
+
 
 public class HomeButtonTestCases extends BasePage {
     private HomeButtonPage homeButtonPage;
@@ -19,7 +19,7 @@ public class HomeButtonTestCases extends BasePage {
     }
 
     @Test
-    public void ClickOnHomeButton() throws InterruptedException {
+    public void GoBackToHomePage() throws InterruptedException {
         homeButtonPage.ClickOnRefinedFrozenMouse();
         homeButtonPage.ClickOnHomeButtonIcon();
     }

@@ -84,6 +84,9 @@ public class DemoShopPage extends BasePage{
     By QuestionMarkIcon = By.xpath("/html/body/div/div/div[3]/nav/div/div/div[1]/button");
     public void ClickOnQuestionMarkIcon() {driver.findElement(QuestionMarkIcon).click();}
 
+    By DemoShopBuildDateLink = By.xpath("/html/body/div/div/div[3]/nav/nav/div/div/a");
+    public void ClickOnDemoShopBuildDateLink() {driver.findElement(DemoShopBuildDateLink).click();}
+
 
 
 

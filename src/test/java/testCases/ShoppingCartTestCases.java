@@ -3,7 +3,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.BasePage;
-import pages.DemoShopPage;
 import pages.ShoppingCartPages;
 
 public class ShoppingCartTestCases extends BasePage {
@@ -16,12 +15,12 @@ public class ShoppingCartTestCases extends BasePage {
     }
 
     @Test
-    public void ClickOnlyOnShoppingCart() throws InterruptedException{
+    public void OpenTheShoppingCart() throws InterruptedException{
         shoppingCartPages.ClickOnShoppingCartToOpen();
     }
 
     @Test
-    public void ClickOnAddToCartItems() throws InterruptedException{
+    public void AddToCartItems() throws InterruptedException{
         shoppingCartPages.ClickOnAddToCartAwesomeGraniteChips();
         shoppingCartPages.ClickOnAddToCartAwesomeMetalChair();
         shoppingCartPages.ClickOnAddToShoppingCart();
@@ -59,7 +58,7 @@ public class ShoppingCartTestCases extends BasePage {
 
 
     @Test
-    public void CompleteYourOrder() throws InterruptedException{
+    public void CompleteYourOrderWithoutAccount() throws InterruptedException{
         shoppingCartPages.ClickOnGorgeousSoftPizza();
         shoppingCartPages.ClickOnAddToCartGorgeousSoftPizza();
         shoppingCartPages.ClickOnShoppingCartToOpen();
