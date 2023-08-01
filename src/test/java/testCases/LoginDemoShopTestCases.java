@@ -52,4 +52,9 @@ public class LoginDemoShopTestCases extends BasePage {
         loginDemoShopPages.ClickOnLogOutButton();
         Assert.assertEquals("Account is successfully logged out" , "Account is successfully logged out");
     }
-}
+
+
+
+
+    }
+

@@ -45,6 +45,16 @@ public class WishlistTestCases extends BasePage {
         Assert.assertEquals("The items are sucessfully removed from wishlist" , "The items are sucessfully removed from wishlist");}
 
 
+    @Test
+    public void AddToCartProductFromWishlist() throws InterruptedException{
+        wishlistPage.ClickOnRefinedFrozenMouseAddToWishlist();
+        wishlistPage.ClickOnOpenWishlistIcon();
+        wishlistPage.ClickOnAddToCartFromWishlistRefinedFrozenMouse();
+        wishlistPage.ClickOnShoppingCartIcon();
+
+    }
+
+
 
 
 

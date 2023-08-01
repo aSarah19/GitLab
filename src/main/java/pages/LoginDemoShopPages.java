@@ -37,4 +37,8 @@ public class LoginDemoShopPages extends BasePage {
 
     By LogOutButton = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/span/button");
     public void ClickOnLogOutButton() {driver.findElement(LogOutButton).click();}
+
+
+
+
 }

@@ -52,6 +52,17 @@ public class WishlistPage extends BasePage {
     public void ClickOnDeleteFromWishlistGorgeousSoftPizza() {driver.findElement(DeleteFromWishlistGorgeousSoftPizza).click();}
 
 
+    By RefinedFrozenMouseAddToWishlist = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[10]/div/div[2]/button[2]");
+    public void ClickOnRefinedFrozenMouseAddToWishlist() {driver.findElement(RefinedFrozenMouseAddToWishlist).click();}
+
+    By AddToCartFromWishlistRefinedFrozenMouse = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div/div/div[2]/button[1]");
+    public void ClickOnAddToCartFromWishlistRefinedFrozenMouse() {driver.findElement(AddToCartFromWishlistRefinedFrozenMouse).click();}
+
+
+    By ShoppingCartIcon = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/a[1]");
+    public void ClickOnShoppingCartIcon() {driver.findElement(ShoppingCartIcon).click();}
+
+
 
 
 
