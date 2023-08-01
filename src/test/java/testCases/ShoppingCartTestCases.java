@@ -29,7 +29,7 @@ public class ShoppingCartTestCases extends BasePage {
 
 
     @Test
-    public void AddMoreItemsShoppingCart() throws InterruptedException{
+    public void AddMoreItemsFromPlusIconShoppingCart() throws InterruptedException{
         shoppingCartPages.ClickOnAddToCartAwesomeGraniteChips();
         shoppingCartPages.ClickOnAddToCartAwesomeMetalChair();
         shoppingCartPages.ClickOnShoppingCartToOpen();
