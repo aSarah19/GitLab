@@ -35,7 +35,7 @@ public class ShoppingCartTestCases extends BasePage {
         shoppingCartPages.ClickOnShoppingCartToOpen();
         shoppingCartPages.ClickOnAddMoreItemAwesomeGraniteChips();
         shoppingCartPages.ClickOnAddMoreItemAwesomeMetalChair();
-        Assert.assertEquals("The item is successful added." , "The item is successful added.");
+        Assert.assertEquals("The items are successfully added." , "The items are successfully added.");
     }
 
 
