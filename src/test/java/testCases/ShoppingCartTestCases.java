@@ -92,6 +92,18 @@ public class ShoppingCartTestCases extends BasePage {
     }
 
 
+    @Test
+    public void CancelThePaymentTest() throws InterruptedException{
+        shoppingCartPages.ClickOnAddToCartPracticalMetalMouse();
+        shoppingCartPages.ClickOnAddToCartRefinedFrozenMouse();
+        shoppingCartPages.ClickOnShoppingCartToOpen();
+        shoppingCartPages.ClickOnCheckoutIcon();
+        shoppingCartPages.ClickOnCancelTheOrder();
+
+
+    }
+
+
 
 
 

@@ -87,12 +87,32 @@ public class ShoppingCartPages extends BasePage{
     public void ClickOnPracticalWoodenBaconAddToCart() {driver.findElement(PracticalWoodenBaconAddToCart).click();}
 
 
-    By ContinueShoppingButton = By.xpath("/html/body/div/div/div[2]/div[2]/div[3]/a[1]");
+    By ContinueShoppingButton = By.xpath("/html/body/div/div/div[2]/div[2]/div[3]/a[2]");
     public void ClickOnContinueShoppingButton() {driver.findElement(ContinueShoppingButton).click();}
 
 
     By GoToPracticalWoodenBaconFromShoppingCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[1]/div/div/div/div[4]");
     public void OpenTheProductWoodenBaconFromShoppingCart() {driver.findElement(GoToPracticalWoodenBaconFromShoppingCart).click();}
+
+
+    By AddToCartRefinedFrozenMouse = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[10]/div/div[2]/button[1]");
+    public void ClickOnAddToCartRefinedFrozenMouse() {driver.findElement(AddToCartRefinedFrozenMouse).click();}
+
+
+    By AddToCartPracticalMetalMouse = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[7]/div/div[2]/button[1]");
+    public void ClickOnAddToCartPracticalMetalMouse() {driver.findElement(AddToCartPracticalMetalMouse).click();}
+
+
+    By CancelTheOrder = By.xpath("/html/body/div/div/div[2]/form/div/div[2]/a");
+    public void ClickOnCancelTheOrder() {driver.findElement(CancelTheOrder).click();}
+
+
+    By CheckoutIcon = By.xpath("/html/body/div/div/div[2]/div[2]/div[3]/a[2]");
+    public void ClickOnCheckoutIcon() {driver.findElement(CheckoutIcon).click();}
+
+
+
+
 
 
 
