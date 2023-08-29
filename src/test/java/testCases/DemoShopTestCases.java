@@ -1,6 +1,6 @@
 package testCases;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.BasePage;
 import pages.DemoShopPage;
@@ -8,7 +8,7 @@ import pages.DemoShopPage;
 public class DemoShopTestCases extends BasePage {
     private DemoShopPage demoShopPage;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         super.setUp();
         demoShopPage = new DemoShopPage(driver);

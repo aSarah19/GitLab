@@ -8,7 +8,7 @@ import pages.ShoppingCartPages;
 public class ShoppingCartTestCases extends BasePage {
     private ShoppingCartPages shoppingCartPages;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         super.setUp();
         shoppingCartPages = new ShoppingCartPages(driver);

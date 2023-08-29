@@ -12,7 +12,7 @@ import pages.HomeButtonPage;
 public class HomeButtonTestCases extends BasePage {
     private HomeButtonPage homeButtonPage;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         super.setUp();
         homeButtonPage= new HomeButtonPage(driver);

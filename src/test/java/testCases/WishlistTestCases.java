@@ -11,7 +11,7 @@ import pages.WishlistPage;
 public class WishlistTestCases extends BasePage {
     private WishlistPage wishlistPage;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         super.setUp();
         wishlistPage= new WishlistPage(driver);

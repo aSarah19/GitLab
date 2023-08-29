@@ -9,7 +9,7 @@ import pages.LoginDemoShopPages;
 public class LoginDemoShopTestCases extends BasePage {
     private LoginDemoShopPages loginDemoShopPages;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         super.setUp();
         loginDemoShopPages = new LoginDemoShopPages(driver);
