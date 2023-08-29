@@ -1,9 +1,9 @@
 package testCases;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.BasePage;
 import pages.DemoShopPage;
+import org.testng.annotations.BeforeMethod;
 
 public class DemoShopTestCases extends BasePage {
     private DemoShopPage demoShopPage;
